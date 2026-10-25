@@ -1,0 +1,80 @@
+
+body{
+    background-image: url("/image/ronaldo\ pic.jpg");
+    background-size: right;
+}
+.hope{
+    background-image: url("/image/20251224_152117.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;  /*makes the image fixed and not to scroll up ; the scroll makes the image to follow the scrow*/
+}
+
+.hope{
+    background-color: rgb(216, 209, 222);
+    color: rgb(63, 42, 42);
+    
+}
+
+/* CSS BOrdeer: its a boader that comes out and wraps around an elemnt
+can be in dotted form, bold form, double, dashed
+it can also be given a width
+also a colour 
+N/B* we can also get a specific width of the border 
+the style border radius is to make it curved at the edges
+*/
+
+.go{
+     border-style: double;
+    border-width: 5px;
+    border-color: crimson;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: 5px;
+    margin-right: 10px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    text-transform: lowercase;
+    text-indent: 10px; /*for creating a paragraph in a text*/
+    word-spacing: 15px;
+    
+}
+
+/* there is also a shot cut for the above and is achived 
+border: solid 10px red(as color) */
+
+/* we can also shot cut it by writing
+margin: ( in the px first for the top, second for the right, third for the bottom, fourth for the left ) 40px 10px 15px 20px; (*same works for padding*)*/
+
+.h1{
+text-align: center;
+color: snow;
+text-decoration: underline;
+text-shadow: 1px 1px red; /*the first px is horizontal and the second is vertical*/
+}
+/* for styling of unodered list (ul) and odered list (ol) */
+ul li{
+    list-style-type: circle;
+}
+
+ol li{
+    list-style-type: lower-roman;
+}
+/* for styling of tables n/b each datavor head can be stylled indidvidually */
+table, th, td{
+    border: 2px solid rgb(20, 22, 24);
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+}
+th, td{
+    height: 50px;
+    text-align: center;
+    vertical-align: auto;
+}
+

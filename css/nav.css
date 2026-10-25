@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+     background-color: rgb(64, 64, 226);
+     color: snow;
+     display: flex;
+     align-items: center;
+     /* justify-content: center; */
+
+}
+
+ul{
+    display: flex;
+    margin: 0 150px;
+    list-style: none;
+}
+
+li{
+    padding: 0 20px;
+}
+li a{
+    color: snow;
+    font-size: 15px;
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration: underline;
+    color: rgb(51, 40, 40);
+}
+
+.hero{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/image/Real\ Madrid.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero h1{
+    color: rgb(51, 40, 40);
+    font-size: 60px;
+}
+

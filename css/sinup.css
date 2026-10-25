@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/image/Download\ Adventure\ Off\ Road\ Truck\ Navigating\ Muddy\ Trail\ in\ Dense\ Forest\ with\ Sunlight\ Filtering\ Through\ Trees\ \ \ nature\ background\ for\ free.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.signup {
+  padding: 30px;
+  width: 320px;
+  margin: 20px auto;
+  background: rgba(86, 58, 58, 0.5);
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.signup h2 {
+  margin-bottom: 20px;
+}
+
+.signup form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+}
+
+.signup input {
+  border: 1px solid #ccc;
+  width: 100%;
+border-radius: 25px;
+padding: 12px;
+border: none;
+background: transparent;
+
+}
+.signup input:focus {
+  border-color: #4CAF50;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.signup button {
+  width: 100ox;
+    padding: 12px;
+    border: none;
+background: white;
+color: black;
+border-radius: 25px;
+font-weight: bold;
+}
+
+.login-link {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.login-link a {
+  color: #1b86f0;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}

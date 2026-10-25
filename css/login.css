@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/image/Download\ Adventure\ Off\ Road\ Truck\ Navigating\ Muddy\ Trail\ in\ Dense\ Forest\ with\ Sunlight\ Filtering\ Through\ Trees\ \ \ nature\ background\ for\ free.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.login-container{
+    width: 320px;
+    padding: 30px;
+    border-radius: 20px;
+    background: rgba(86, 58, 58, 0.5);
+    text-align: center;
+    color: #ffffff;
+}
+
+.login-container h2{
+    margin-bottom: 15px;
+}
+
+.input-box{
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input-box i{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    color: #ffffff;
+}
+
+.input-box input{
+width: 100%;
+border-radius: 25px;
+padding: 12px;
+border: none;
+background: transparent;
+color: snow;
+}
+
+.options{
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    margin-bottom: 15px;
+
+}
+
+.options a{
+    color: #1b86f0;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.options a:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 100ox;
+    padding: 12px;
+    border: none;
+background: white;
+color: black;
+border-radius: 25px;
+font-weight: bold;
+}
+
+.register a{
+    color: #1b86f0;
+    text-decoration: none;
+}
+.register a:hover{
+    text-decoration: underline;
+}
+
+.register{
+    margin-top: 15px;
+    font-size: 13px;
+    
+}

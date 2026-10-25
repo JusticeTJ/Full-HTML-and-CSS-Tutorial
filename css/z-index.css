@@ -1,0 +1,42 @@
+.container{
+    position: relative;
+}
+.gray{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    position: absolute;
+    z-index: 2;
+
+}
+.green{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+}
+.box{
+    background-color: red;
+    padding: 100px;
+    margin: 10px;
+    display: inline;
+    
+}
+.hope1{
+      padding: 30px;
+      background-color: green;
+      margin: 10px;
+      display: block;
+}
+
+.img1{
+    width: 100px;
+    height: 100px;
+    float: right;
+    opacity: 1;
+}
+img:hover{
+    opacity: 0.5;
+}

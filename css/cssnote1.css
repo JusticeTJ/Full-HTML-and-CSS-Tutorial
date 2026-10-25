@@ -1,0 +1,30 @@
+div{
+    background-color: black;
+    color: wheat;
+}
+
+h2{
+background-color: rgb(129, 113, 113);
+}
+
+.justice{
+    background-color: royalblue;
+}
+
+#justice{
+    background-color: hsl(101, 86%, 14%);
+}
+
+.bright{
+    color: hsla(100, 30, 10, 1.0);
+}
+.destiny{
+    background-color: rgba(63, 230, 99, 0.4);
+}
+#bright{
+    color:#431850 ;
+}
+#destiny{
+    background-color: rgb(100, 10, 30);
+}
+/* to write a comment we use / and * to write a comment */ 

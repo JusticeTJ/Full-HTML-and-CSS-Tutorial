@@ -1,0 +1,73 @@
+.one{
+    color:blue;
+}
+
+.two{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.three{
+    font-size: 30px;
+}
+
+.four{
+    font-weight: bold;
+}
+.five{
+    font-style: italic;
+}
+
+.six{
+    text-align: center;
+    /* center, left, right etc */
+
+}
+
+  /* ADVANCED TEXT PRPOPERTIES */
+
+  .one1{
+    text-decoration: underline;
+  }
+
+
+  .two2{
+    text-transform: uppercase;
+  }
+
+  .three3{
+ -   letter-spacing: 2px;
+  }
+
+
+  .five5{
+    text-indent: 50px;
+  }
+
+.seven7{
+    line-height: 1.5;
+}
+
+.six6{
+    white-space: nowrap;
+}
+
+#one{
+    text-shadow: 2px 2px 4px red;
+    /* horizontal-ofset, vertical-offset, blur-radius, color */
+}
+
+#two{
+    text-decoration: underline;
+    text-decoration-color: purple;
+}
+
+#three{
+    text-decoration: line-through;
+    text-decoration-style: wavy ;
+}
+
+#four{
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: brown;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/cssnote1.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>INTRODUCTION TO CSS(CASSIDATING STYLE SHEET)</h1>
+    <!-- in css we have a lot of selectors, the included
+    .class
+    .id
+    .h1
+    .body
+    css properties include boader, bacakground, colour, font family, with etc  -->
+    
+ <!--types of css-->   
+ <!--Inclie css: direectly in the HTML element-->
+ <h1 style="color:blue;"> WELCOME TO THE CLASS</h1>
+<!--INTERNAL CSS: within a style tag in the HTML document-->
+<style>
+    h1{
+        background-color: green;
+        color: white;
+    }
+</style>
+<h2 style="border: 2px;">Lorem ipsum dolor sit amet.</h2>
+<!-- External CSS: is an extenal .css file and linked to the HTML document. example the classwork-->
+ <!-- 
+ABSOLUTE UNITS
+These units are fixed and are not affacted by other elements. They are based on physical unit of measuments
+
+1.px[pixes]: Represents a single dot on the screen. In CSS, it’s a relative unit standardized to 1/96 of an inch.
+Typical usage of px:Screen layouts, font sizes, spacing.
+Conversion Standard: Screen layouts, font sizes, spacing.
+
+2.pt[points]: Traditional typography unit. Commonly used in print.
+Typical use: Fonts in print stylesheets.
+Conversion Standard: 1pt = 1/72in
+
+3.in[inches]: Physical inch measurement.
+Typical Use: Print layouts, precise sizing.
+Conversion Standard: 1in = 96px
+
+4.cm[centimeters]: Metric unit of length.
+Typical Use: Print styles, precise element sizing.
+Conversion Standard: 1cm ≈ 37.8px
+
+5.mm[millimeters]: Smaller metric unit.
+Typical Use: Fine adjustments in print.
+Conversion Standard: 1mm ≈ 3.78px
+
+🔑 Key Notes
+Absolute vs Relative: These are absolute units, meaning they don’t scale with viewport or parent element size. For responsive design, relative units like em, rem, %, vh, and vw are usually preferred.
+
+Screen vs Print:
+
+On screens, px is most common because it maps naturally to digital displays.
+
+On print, pt, cm, mm, and in are more reliable since they correspond to real-world measurements.
+
+Conversions are standardized in CSS:
+
+1in = 96px = 72pt
+
+2.54cm = 1in
+
+10mm = 1cm
+
+⚖️ Practical Guidance
+Use px for web design (precise control on screens).
+
+Use pt, cm, mm, in for print stylesheets where physical dimensions matter.
+
+For responsive design, avoid absolute units—stick to relative ones like em, rem, %, or viewport units.
+
+RELATIVE UNITS
+These units are flexible and scale in relation to other measuments, such as the size of the parent or the viewport
+
+1. em:Relative to the size of the emelent[2em-2times the current  front size
+Typical Use: Font sizing, spacing.
+
+2. rem:[root em] Relative to the size of the elememt's root(1,5 times the squar root front size)
+Typical Use:Consistent typography across a site 
+
+3. %(percentage): Relative to the Parent element size:(50%-50% of the parent screen)
+Typical Use: Widths, heights, margins, padding.
+
+4. vw(view point width): 1% of the view point of the width(50vw-50% of the view point width)
+Typical Use: Fluid typography, responsive widths.
+
+5.vh( view port height): 1% of the viewport height.(50vh-50% of the viewport height)
+Typical Use: Full-screen sections, responsive layouts.
+
+vmin / vmax: Relative to the smaller/larger dimension of the viewport. 
+1vmin = 1% of smaller side; 1vmax = 1% of larger side.
+Typical Use: Ensuring elements scale proportionally.
+
+⚖️ Absolute vs Relative Units
+Absolute units (px, pt, cm, etc.) → Fixed, don’t adapt to screen size.
+
+Relative units (em, rem, %, vh, vw) → Flexible, scale with parent or viewport, ideal for responsive design.
+
+🌟 Practical Guidance
+Use rem for consistent font sizing across your site.
+
+Use em when you want spacing or sizing to scale with the parent’s font size.
+
+Use viewport units (vh, vw) for layouts that adapt to screen size.
+
+Use percentages for fluid grids and flexible containers.
+
+👉 So, if absolute units are like rulers (fixed measurements), relative units are like elastic bands—they stretch or shrink depending on context.
+
+-->
+<div style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, accusamus?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, atque!lorem10
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, perferendis.
+</div>
+<div class="justice">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum molestiae facere, in atque reprehenderit distinctio? Ea veniam dolorem ipsum non voluptatibus libero culpa, blanditiis accusamus nostrum natus, repudiandae consequuntur nobis!
+</div>
+<div class="bright">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sequi vel tenetur consectetur debitis. Fuga laudantium omnis neque, perferendis id dolor deleniti cupiditate accusantium sapiente optio suscipit maiores, a soluta?</div>
+<div class="destiny">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, doloremque! Hic deserunt quasi eveniet harum iure quos possimus nulla officia molestiae cupiditate, qui laboriosam, eum reprehenderit, maxime temporibus accusamus repudiandae.</div>
+<!-- class is called up in the css with the . while id is called up with the # n/b id are mostly used in java while class in css-->
+ <div id="justice">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui vitae ipsam exercitationem deleniti laborum odit aliquam. Adipisci, magni libero! Dolorem magni eius inventore error delectus beatae in excepturi sapiente quo.</div>
+ <div id="bright">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate velit molestiae eos. Illo aliquid, nam molestias quibusdam, veniam id, magni ex ad quisquam repudiandae adipisci iusto eum culpa facilis cum?</div>
+ <div id="destiny">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus reprehenderit maiores quam et minima tenetur cumque cum ipsam! Asperiores, adipisci tempore quod facilis id explicabo aliquid dicta itaque quos repellendus.</div>
+ <!-- types of colour format used in css which include 
+ .RGB: misture of a proption of red, blue and green for every proportion red min and max proportion is 0-255 same for blue and green
+ and example is the one used in id=destiny
+ .RGBA: IS JUST like the rgb instead its used for transperentsy denoted with the apha  eg the one used on class=destiny n/b it ranges from 0.0-1.0
+ .hexadecimal: its gotten from selection of the serial no 1-9 and the alphabet A-F its in the order of rrggbb example the id=bright. iys denoed with a #
+ .hsl:  is made of hve(RANGES fron 0-360degeres), saturation(st ranges from 0-100%) and lightness(lt ranges 0-100%) example used in id=justice
+ .HSLA: is just like the hsl but with a transperentsy denotes with the alpha example in the class=bright -->
+</body>
+</html>
